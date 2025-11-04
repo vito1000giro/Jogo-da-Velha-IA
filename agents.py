@@ -108,4 +108,4 @@ class MinMaxAgent(Agent):
                 beta = min(beta, eval)
                 if beta <= alpha:
                     break
-            return min_eval1
+            return min_eval
